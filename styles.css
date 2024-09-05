@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #777777;
+  height: 30vh;
+  padding-left: 1vh;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #555555;
+  height: 40vh;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #333333;
+  height: 30vh;
+  padding-right: 1vh;
+}
+
+.text {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 300;
+  font-family: Segoe UI;
+}
